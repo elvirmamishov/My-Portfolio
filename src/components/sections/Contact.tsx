@@ -209,7 +209,7 @@ export function Contact({ title, form, downloadCV }: ContactProps) {
                     required
                     rows={5}
                     className="w-full px-4 py-3 rounded-xl glass-effect border border-white/10 text-white placeholder-zinc-500 focus:outline-none focus:border-accent-violet transition-colors resize-none"
-                    placeholder="Your message..." />
+                    placeholder={form.message} />
                   
                 </div>
 

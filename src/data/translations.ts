@@ -1,6 +1,7 @@
 import { Translation } from '../types';
 
 export const translations: Record<'en' | 'az', Translation> = {
+  //ENGLISH
   en: {
     nav: {
       home: 'Home',
@@ -75,6 +76,7 @@ export const translations: Record<'en' | 'az', Translation> = {
       actions: 'Actions'
     }
   },
+//AZERBAIJANI
   az: {
     nav: {
       home: 'Ana Səhifə',

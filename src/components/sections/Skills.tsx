@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { motion } from 'framer-motion';
 import { SectionHeading } from '../ui/SectionHeading';
 import { GlassCard } from '../ui/GlassCard';
@@ -103,9 +103,9 @@ function SkillBar({ skill, delay }: {skill: Skill;delay: number;}) {
       
       <div className="flex items-center justify-between mb-2">
         <span className="text-sm text-zinc-300">{skill.name}</span>
-        <span className="text-xs text-zinc-500">{skill.proficiency}%</span>
+        {/* <span className="text-xs text-zinc-500">{skill.proficiency}%</span> */}
       </div>
-      <div className="h-2 bg-dark-surface dark:bg-dark-elevated rounded-full overflow-hidden">
+      {/* <div className="h-2 bg-dark-surface dark:bg-dark-elevated rounded-full overflow-hidden">
         <motion.div
           className="h-full bg-gradient-to-r from-accent-violet to-accent-cyan rounded-full"
           initial={{
@@ -126,7 +126,7 @@ function SkillBar({ skill, delay }: {skill: Skill;delay: number;}) {
             ease: 'easeOut'
           }} />
         
-      </div>
+      </div> */}
     </motion.div>);
 
 }
